@@ -1,5 +1,7 @@
 import { useEffect, useState } from 'react';
 
+import About from '@/components/about/about';
+
 export default function Home() {
   const [text, setText] = useState('');
   const fullText = '안녕하세요. 프론트엔드 개발자 황재연입니다.';
@@ -31,6 +33,7 @@ export default function Home() {
           {text}
         </p>
       </div>
+      <About />
     </div>
   );
 }

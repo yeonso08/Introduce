@@ -26,7 +26,8 @@ export default function Home() {
 
       {/* 내용 (네비게이션 바, 푸터, 본문 등) */}
       <div className="relative z-10 flex justify-center items-center h-full">
-        <p className="text-white text-2xl border-r-2 border-white p-2 animate-blink">
+        {/* <p className="text-white text-6xl border-r-2 border-white p-2 animate-blink"> */}
+        <p className="text-white text-6xl font-bold p-2 animate-blink border-r-2 border-white">
           {text}
         </p>
       </div>

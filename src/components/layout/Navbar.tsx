@@ -9,7 +9,7 @@ const Navbar = () => {
             <div className='px-4 cursor-pointer md:hidden'>
                 아이콘
             </div>
-            <div className='pr-8 md:flex hidden'> {/* 클래스를 md:flex hidden으로 변경 */}
+            <div className='pr-8 md:flex hidden'>
                 <Link href='/about'>
                     <div className='p-4'>About</div>
                 </Link>

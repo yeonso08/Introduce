@@ -2,13 +2,14 @@ import { useEffect, useState } from 'react';
 
 import About from '@/components/about/about';
 import Skills from '@/components/skills/skills';
+import Projects from '@/components/projects/projects';
 
 export default function Home() {
-  const [text, setText] = useState('');
+  const [text, setText] = useState<string>('');
   const fullText = '안녕하세요. 프론트엔드 개발자 황재연입니다.';
 
   useEffect(() => {
-    let index = 0;
+    let index: number = 0;
     const timer = setInterval(() => {
       setText(fullText.slice(0, index));
       index++;
@@ -36,6 +37,7 @@ export default function Home() {
       </div>
       <About />
       <Skills />
+      <Projects />
     </div>
   );
 }

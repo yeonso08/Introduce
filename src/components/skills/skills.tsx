@@ -1,4 +1,3 @@
-import { IoPersonSharp } from "react-icons/io5";
 import { IoLogoJavascript } from "react-icons/io5";
 import { FaReact } from "react-icons/fa";
 import { FaVuejs } from "react-icons/fa";

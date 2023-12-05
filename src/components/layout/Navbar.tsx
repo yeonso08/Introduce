@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Navbar = () => {
     return (
-        <nav className='flex justify-between items-center h-16 bg-gray-800 text-white relative shadow-sm font-mono'>
+        <nav className='flex justify-between items-center h-16 bg-black text-white fixed top-0 left-0 right-0 z-10 shadow-sm font-mono'>
             <Link href='/'>
                 <div className='pl-8'>JaeYeon</div>
             </Link>
@@ -23,5 +23,4 @@ const Navbar = () => {
         </nav>
     );
 };
-
 export default Navbar;

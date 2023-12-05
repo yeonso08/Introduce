@@ -2,7 +2,7 @@ import Link from 'next/link';
 
 const Navbar = () => {
     return (
-        <nav className='flex justify-between items-center h-16 bg-black text-white fixed top-0 left-0 right-0 z-50 shadow-sm font-mono text-lg px-32'>
+        <nav className='flex justify-between items-center h-16 bg-black text-white fixed top-0 left-0 right-0 z-50 shadow-sm font-mono text-lg md:px-32'>
             <Link href='/'>
                 <div className='pl-8'>Jaeyeon Hwang</div>
             </Link>

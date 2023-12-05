@@ -1,6 +1,7 @@
 import { useEffect, useState } from 'react';
 
 import About from '@/components/about/about';
+import Skills from '@/components/skills/skills';
 
 export default function Home() {
   const [text, setText] = useState('');
@@ -34,6 +35,7 @@ export default function Home() {
         </p>
       </div>
       <About />
+      <Skills />
     </div>
   );
 }

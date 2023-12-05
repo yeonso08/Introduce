@@ -3,6 +3,7 @@ import { useEffect, useState } from 'react';
 import About from '@/components/about/about';
 import Skills from '@/components/skills/skills';
 import Projects from '@/components/projects/projects';
+import Footer from '@/components/layout/Footer';
 
 export default function Home() {
   const [text, setText] = useState<string>('');
@@ -23,7 +24,7 @@ export default function Home() {
     <div className="relative h-screen">
       {/* 배경 이미지 */}
       <div className="absolute top-0 right-0 bottom-0 left-0 bg-cover bg-center"
-           style={{ backgroundImage: "url('/mainImage.png')" }}></div>
+        style={{ backgroundImage: "url('/mainImage.png')" }}></div>
 
       {/* 어두운 오버레이 */}
       <div className="absolute top-0 right-0 bottom-0 left-0 bg-black opacity-50"></div>
@@ -38,6 +39,7 @@ export default function Home() {
       <About />
       <Skills />
       <Projects />
+      <Footer />
     </div>
   );
 }

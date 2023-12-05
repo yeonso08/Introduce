@@ -13,35 +13,35 @@ const About = () => {
       <div className="text-lg grid grid-cols-[2fr,1fr,1fr,1fr]">
         <div>사진</div>
         <div>
-          <div className="mb-2 flex items-center">
+          <div className="mb-2 text-lg font-semibold flex items-center">
             <IoPersonSharp />
-            <span className="ml-2">Jaeyeon Hwang</span>
+            <span className="ml-2 text-lg font-semibold">Jaeyeon Hwang</span>
           </div>
-          <div className="mb-2 flex items-center">
+          <div className="mb-2 text-lg font-semibold flex items-center">
           <FaBirthdayCake />
-            <span className="ml-2">1997.08.25</span>
+            <span className="ml-2 text-lg font-semibold">1997.08.25</span>
           </div>
-          <div className="mb-2 flex items-center">
+          <div className="mb-2 text-lg font-semibold flex items-center">
           <AiOutlineHome />
-            <span className="ml-2">서울특별시 강동구</span>
+            <span className="ml-2 text-lg font-semibold">서울특별시 강동구</span>
           </div>
-          <div className="mb-2 flex items-center">
+          <div className="mb-2 text-lg font-semibold flex items-center">
           <MdOutlineEmail />
-            <span className="ml-2">hjng0825@gmail.com</span>
+            <span className="ml-2 text-lg font-semibold">hjng0825@gmail.com</span>
           </div>
         </div>
         <div>
-        <div className="mb-2 flex items-center">
+        <div className="mb-2 text-lg font-semibold flex items-center">
           <CiPhone />
-            <span className="ml-2">010-9985-3743</span>
+            <span className="ml-2 text-lg font-semibold">010-9985-3743</span>
           </div>
-          <div className="mb-2 flex items-center">
+          <div className="mb-2 text-lg font-semibold flex items-center">
           <FaGithub />
-            <a href="https://github.com/yeonso08" className="ml-2">GIT</a>
+            <a href="https://github.com/yeonso08" className="ml-2 text-lg font-semibold">GIT</a>
           </div>
-          <div className="mb-2 flex items-center">
+          <div className="mb-2 text-lg font-semibold flex items-center">
           <SiBloglovin  />
-            <a href="https://velog.io/@hjng0825" className="ml-2">BLOG</a>
+            <a href="https://velog.io/@hjng0825" className="ml-2 text-lg font-semibold">BLOG</a>
           </div>          
         </div>
       </div>

@@ -15,37 +15,37 @@ const Skills = () => {
         <div>
           <div className="mb-4 flex items-center">
             <IoLogoJavascript className="text-yellow-500 w-8 h-8" />
-            <span className="ml-2">JavaScript</span>
+            <span className="ml-2 text-lg font-semibold">JavaScript</span>
           </div>
           <div className="mb-4 flex items-center">
             <SiTypescript className="text-blue-600 w-8 h-8" />
-            <span className="ml-2">TypeScript</span>
+            <span className="ml-2 text-lg font-semibold">TypeScript</span>
           </div>
           <div className="mb-4 flex items-center">
             <FaReact className="text-blue-400 w-8 h-8" />
-            <span className="ml-2">React</span>
+            <span className="ml-2 text-lg font-semibold">React</span>
           </div>
           <div className="mb-4 flex items-center">
             <SiNextdotjs className="w-8 h-8"/>
-            <span className="ml-2">Next.js</span>
+            <span className="ml-2 text-lg font-semibold">Next.js</span>
           </div>
           <div className="mb-4 flex items-center">
             <FaVuejs className="text-green-600 w-8 h-8" />
-            <span className="ml-2">Vue</span>
+            <span className="ml-2 text-lg font-semibold">Vue</span>
           </div>
         </div>
         <div>
           <div className="mb-4 flex items-center">
             <FaGitAlt className="text-orange-600 w-8 h-8" />
-            <span className="ml-2">Git</span>
+            <span className="ml-2 text-lg font-semibold">Git</span>
           </div>
           <div className="mb-4 flex items-center">
             <img width="32" height="32" src="https://img.icons8.com/color-glass/48/slack-new.png" alt="slack-new" />
-            <span className="ml-2">Slack</span>
+            <span className="ml-2 text-lg font-semibold">Slack</span>
           </div>
           <div className="mb-4 flex items-center">
             <SiNotion className="w-8 h-8"/>
-            <span className="ml-2">Notion</span>
+            <span className="ml-2 text-lg font-semibold">Notion</span>
           </div>
         </div>
       </div>

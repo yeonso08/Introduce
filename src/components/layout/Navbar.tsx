@@ -2,9 +2,9 @@ import Link from 'next/link';
 
 const Navbar = () => {
     return (
-        <nav className='flex justify-between items-center h-16 bg-black text-white fixed top-0 left-0 right-0 z-10 shadow-sm font-mono'>
+        <nav className='flex justify-between items-center h-16 bg-black text-white fixed top-0 left-0 right-0 z-50 shadow-sm font-mono text-lg px-32'>
             <Link href='/'>
-                <div className='pl-8'>JaeYeon</div>
+                <div className='pl-8'>Jaeyeon Hwang</div>
             </Link>
             <div className='px-4 cursor-pointer md:hidden'>
                 아이콘
@@ -23,4 +23,5 @@ const Navbar = () => {
         </nav>
     );
 };
+
 export default Navbar;

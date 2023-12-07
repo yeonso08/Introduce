@@ -19,7 +19,7 @@ const Projects = () => {
           <div>
           <div className="flex items-center mb-8">
             {/* Project Image */}
-            <div className="flex-none w-48 h-32 bg-gray-500 mr-4" onClick={() => openModal('1', '링고스타', '외국인 상대로 한 렌터카 서비스')}>
+            <div className="flex-none w-48 h-32 bg-gray-500 mr-4 cursor-pointer hover:scale-110 transition-transform" onClick={() => openModal('1', '링고스타', '외국인 상대로 한 렌터카 서비스')}>
               {/* Insert <img> tag or background image here */}
             </div>
   
@@ -33,8 +33,8 @@ const Projects = () => {
 
           <div className="flex items-center mb-8">
             {/* Project Image */}
-            <div className="flex-none w-48 h-32 bg-gray-500 mr-4" onClick={() => openModal('2', 'Seniors', '6070분들의 재취업을 위한 프로젝트')}>
-              {/* Insert <img> tag or background image here */}
+            <div className="flex-none w-48 h-32 bg-gray-500 mr-4 cursor-pointer hover:scale-110 transition-transform" onClick={() => openModal('2', 'Seniors', '6070분들의 재취업을 위한 프로젝트')}>
+            {/* <img src="path_to_your_image.jpg" alt="Project Image" className="w-full h-full object-cover" /> */}
             </div>
   
             {/* Project Description */}
@@ -46,7 +46,7 @@ const Projects = () => {
           </div>
           <div className="flex items-center mb-8">
             {/* Project Image */}
-            <div className="flex-none w-48 h-32 bg-gray-500 mr-4" onClick={() => openModal('3', '킨더그루', '유치원이 아이의 교육에 보다 집중할 수 있도록 아이 관리를 지원하는 통합 관리 서비스')}>
+            <div className="flex-none w-48 h-32 bg-gray-500 mr-4 cursor-pointer hover:scale-110 transition-transform" onClick={() => openModal('3', '킨더그루', '유치원이 아이의 교육에 보다 집중할 수 있도록 아이 관리를 지원하는 통합 관리 서비스')}>
               {/* Insert <img> tag or background image here */}
             </div>
   

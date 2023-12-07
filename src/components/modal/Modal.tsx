@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect } from 'react';
 
 interface ProjectModalProps {
   projectId: string;
@@ -10,6 +10,22 @@ interface ProjectModalProps {
 }
 
 const Modal: React.FC<ProjectModalProps> = ({ isOpen, onClose, projectTitle, projectDescription }) => {
+  useEffect(() => {
+    const handleEsc = (event: KeyboardEvent) => {
+      if (event.key === 'Escape') {
+        onClose();
+      }
+    };
+
+    if (isOpen) {
+      window.addEventListener('keydown', handleEsc);
+    }
+
+    return () => {
+      window.removeEventListener('keydown', handleEsc);
+    };
+  }, [isOpen, onClose]); // 의존성 배열에 isOpen과 onClose를 추가합니다.
+
   if (!isOpen) return null;
 
   return (

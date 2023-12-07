@@ -12,7 +12,7 @@ const Projects = () => {
   };
 
     return (
-      <div className="bg-black text-white p-10">
+      <div className="bg-black text-white p-10" id='projects'>
         <h2 className="text-4xl font-bold mb-4">Projects</h2>
         <div className="flex flex-col items-center justify-center">
           {/* Example of a single project entry */}

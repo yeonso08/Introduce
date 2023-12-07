@@ -8,7 +8,7 @@ import { SiBloglovin } from "react-icons/si";
 
 const About = () => {
   return (
-    <div className="bg-black text-white p-10">
+    <div className="bg-black text-white p-10" id="about">
       <h2 className="text-4xl font-bold mb-4">About</h2>
       <div className="text-lg grid grid-cols-[2fr,1fr,1fr,1fr]">
         <div>사진</div>

@@ -10,15 +10,15 @@ const Navbar = () => {
                 아이콘
             </div>
             <div className='pr-8 md:flex hidden'>
-                <Link href='/about'>
+                <a href="#about">
                     <div className='p-4 text-lg font-thin'>About</div>
-                </Link>
-                <Link href='/projects'>
+                </a>
+                <a href="#projects">
                     <div className='p-4 text-lg font-thin'>Projects</div>
-                </Link>
-                <Link href='/contact'>
+                </a>
+                <a href="#about">
                     <div className='p-4 text-lg font-thin'>Contact</div>
-                </Link>
+                </a>
             </div>
         </nav>
     );

@@ -1,12 +1,13 @@
 import React, { useState } from 'react';
 
 import Modal from "../modal/Modal";
+import { RingostarModal } from '../modal/ModalContents';
 
 const Projects = () => {
   const [modalOpen, setModalOpen] = useState(false);
-  const [selectedProject, setSelectedProject] = useState({ id: '', title: '', description: '' });
+  const [selectedProject, setSelectedProject] = useState<{ id: string, title: string, description: React.ReactNode }>({ id: '', title: '', description: '' });
 
-  const openModal = (id: string, title: string, description: string) => {
+  const openModal = (id: string, title: string, description: React.ReactNode) => {
     setSelectedProject({ id, title, description });
     setModalOpen(true);
   };
@@ -19,7 +20,7 @@ const Projects = () => {
           <div>
           <div className="flex items-center mb-8">
             {/* Project Image */}
-            <div className="flex-none w-48 h-32 bg-gray-500 mr-4 cursor-pointer hover:scale-110 transition-transform" onClick={() => openModal('1', '링고스타', '외국인 상대로 한 렌터카 서비스')}>
+            <div className="flex-none w-48 h-32 bg-gray-500 mr-4 cursor-pointer hover:scale-110 transition-transform" onClick={() => openModal('1', '링고스타', <RingostarModal />)}>
               {/* Insert <img> tag or background image here */}
             </div>
   

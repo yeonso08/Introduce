@@ -5,7 +5,7 @@ interface ProjectModalProps {
   isOpen: boolean;
   onClose: () => void;
   projectTitle: string;
-  projectDescription: string;
+  projectDescription: React.ReactNode;
   // 프로젝트 세부 정보를 위해 필요한 추가 props
 }
 

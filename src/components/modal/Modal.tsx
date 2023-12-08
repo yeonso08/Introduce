@@ -4,12 +4,11 @@ interface ProjectModalProps {
   projectId: string;
   isOpen: boolean;
   onClose: () => void;
-  projectTitle: string;
   projectDescription: React.ReactNode;
   // 프로젝트 세부 정보를 위해 필요한 추가 props
 }
 
-const Modal: React.FC<ProjectModalProps> = ({ isOpen, onClose, projectTitle, projectDescription }) => {
+const Modal: React.FC<ProjectModalProps> = ({ isOpen, onClose, projectDescription }) => {
   useEffect(() => {
     const handleEsc = (event: KeyboardEvent) => {
       if (event.key === 'Escape') {
@@ -34,9 +33,7 @@ const Modal: React.FC<ProjectModalProps> = ({ isOpen, onClose, projectTitle, pro
         <button onClick={onClose} className="text-black absolute top-5 right-5">
           닫기
         </button>
-        <h2 className="text-4xl font-bold mb-4 text-black">{projectTitle}</h2>
         <p className='text-black'>{projectDescription}</p>
-        {/* 여기에 더 많은 프로젝트 세부 정보 추가 */}
       </div>
     </div>
   );

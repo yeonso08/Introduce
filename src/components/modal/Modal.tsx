@@ -5,7 +5,6 @@ interface ProjectModalProps {
   isOpen: boolean;
   onClose: () => void;
   projectDescription: React.ReactNode;
-  // 프로젝트 세부 정보를 위해 필요한 추가 props
 }
 
 const Modal: React.FC<ProjectModalProps> = ({ isOpen, onClose, projectDescription }) => {
@@ -23,7 +22,7 @@ const Modal: React.FC<ProjectModalProps> = ({ isOpen, onClose, projectDescriptio
     return () => {
       window.removeEventListener('keydown', handleEsc);
     };
-  }, [isOpen, onClose]); // 의존성 배열에 isOpen과 onClose를 추가합니다.
+  }, [isOpen, onClose]);
 
   if (!isOpen) return null;
 

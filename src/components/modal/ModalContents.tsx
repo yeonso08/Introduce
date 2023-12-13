@@ -17,11 +17,11 @@ export const RingostarModal = () => {
                 <div className="space-y-2">
                     <div className="flex justify-start items-baseline space-x-2">
                         <div className="font-semibold">Workplace:</div>
-                        <div>Isaac S&C</div>
+                        <div>아이작에스엔씨</div>
                     </div>
                     <div className="flex justify-start items-baseline space-x-2">
                         <div className="font-semibold">Development period:</div>
-                        <div>2023.10 ~ 2023.11 (two months)</div>
+                        <div>2023.10 ~ 2023.11 (2개월)</div>
                     </div>
                     <div className="flex justify-start items-baseline space-x-2">
                         <div className="font-semibold">Development scope:</div>
@@ -43,7 +43,7 @@ export const RingostarModal = () => {
             {/* Development Story */}
             <div className="mb-4 text-gray-700">
                 <h3 className="font-semibold text-lg mb-2">Development Story</h3>
-                <p>Tell your story here...</p>
+                <p>이 프로젝트는 외국인 관광객들을 목표로 한 외국인 전용 렌트카 홈페이지 입니다. 따라서 i18n을 사용하여 다국어 지원을 했습니다. vu2.7버전을 사용하였고 입사하고 처음 맡은 프로젝트입니다. 그리고 처음 쓰는 vue입니다.</p>
             </div>
 
             {/* Closing Thoughts or Testimonials */}
@@ -74,11 +74,11 @@ export const SeniorsModal = () => {
                 <div className="space-y-2">
                     <div className="flex justify-start items-baseline space-x-2">
                         <div className="font-semibold">Workplace:</div>
-                        <div>Isaac S&C</div>
+                        <div>사이드 프로젝트</div>
                     </div>
                     <div className="flex justify-start items-baseline space-x-2">
                         <div className="font-semibold">Development period:</div>
-                        <div>2023.10 ~ 2023.11 (two months)</div>
+                        <div>2023.06 ~ 2023.11 (6개월)</div>
                     </div>
                     <div className="flex justify-start items-baseline space-x-2">
                         <div className="font-semibold">Development scope:</div>
@@ -86,7 +86,7 @@ export const SeniorsModal = () => {
                     </div>
                     <div className="flex justify-start items-baseline space-x-2">
                         <div className="font-semibold">Technology stack:</div>
-                        <div>Vue.js, Vuex</div>
+                        <div>Next, TypeScript, Tailwind, Recoil, Tanstack Query</div>
                     </div>
                     <div className="flex justify-start items-baseline space-x-2">
                         <div className="font-semibold">URL:</div>
@@ -100,7 +100,7 @@ export const SeniorsModal = () => {
             {/* Development Story */}
             <div className="mb-4 text-gray-700">
                 <h3 className="font-semibold text-lg mb-2">Development Story</h3>
-                <p>Tell your story here...</p>
+                <p>이 프로젝트는 제가 직접 개발 커뮤니티 사이트에 글을 올려 사람들을 모집하여 진행한 프로젝트입니다. 처음으로 Next와 TypeScript 그리고 Tailwind를 써봤습니다. 저는 여기서 채팅 부분을 맞아 채팅 시스템을 개발 했습니다. 채팅을 구현하기 위해 STOMP를 썼습니다.</p>
             </div>
 
             {/* Closing Thoughts or Testimonials */}
@@ -131,11 +131,11 @@ export const KinderGrewModal = () => {
                 <div className="space-y-2">
                     <div className="flex justify-start items-baseline space-x-2">
                         <div className="font-semibold">Workplace:</div>
-                        <div>Isaac S&C</div>
+                        <div>항해99 실전 프로젝트</div>
                     </div>
                     <div className="flex justify-start items-baseline space-x-2">
                         <div className="font-semibold">Development period:</div>
-                        <div>2023.10 ~ 2023.11 (two months)</div>
+                        <div>2023.03 ~ 2023.04 (2개월)</div>
                     </div>
                     <div className="flex justify-start items-baseline space-x-2">
                         <div className="font-semibold">Development scope:</div>
@@ -143,7 +143,7 @@ export const KinderGrewModal = () => {
                     </div>
                     <div className="flex justify-start items-baseline space-x-2">
                         <div className="font-semibold">Technology stack:</div>
-                        <div>Vue.js, Vuex</div>
+                        <div>React, Recoil, Styled Components, Tanstack Query</div>
                     </div>
                     <div className="flex flex-col space-y-2">
                         <div className="flex justify-start items-baseline space-x-2">

@@ -10,20 +10,31 @@ const config: Config = {
     extend: {
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
       },
       animation: {
         blink: 'blink 0.8s steps(1) infinite',
+        fadeInBrighten: 'fadeInBrighten 1.5s ease-in-out forwards',
       },
       keyframes: {
         blink: {
           '0%, 100%': { borderColor: 'white' },
           '50%': { borderColor: 'transparent' },
         },
+        fadeInBrighten: {
+          '0%': {
+            opacity: '0',
+            filter: 'brightness(90%)'
+          },
+          '100%': {
+            opacity: '1',
+            filter: 'brightness(100%)'
+          },
+        },
       },
     },
   },
   plugins: [],
 }
+
 export default config

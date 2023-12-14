@@ -3,9 +3,15 @@ import React, { useState } from 'react';
 import Modal from "../modal/Modal";
 import { KinderGrewModal, RingostarModal, SeniorsModal } from '../modal/ModalContents';
 
+import { useInView } from "react-intersection-observer";
+
 const Projects = () => {
   const [modalOpen, setModalOpen] = useState(false);
   const [selectedProject, setSelectedProject] = useState<{ id: string, description: React.ReactNode }>({ id: '', description: '' });
+  
+  const { ref, inView } = useInView({
+    threshold: 0.2
+  });
 
   const openModal = (id: string, description: React.ReactNode) => {
     setSelectedProject({ id, description });
@@ -13,7 +19,8 @@ const Projects = () => {
   };
 
   return (
-    <div className="bg-black text-white p-10" id='projects'>
+  <div>
+    <div ref={ref} className={`bg-black text-white p-10 ${inView ? 'animate-fadeInBrighten' : ''}`} id='projects'>
       <h2 className="text-4xl font-bold mb-4">Projects</h2>
       <div className="flex flex-col items-center justify-center">
         {/* Example of a single project entry */}
@@ -59,18 +66,16 @@ const Projects = () => {
               {/* Add more details or buttons/links as needed */}
             </div>
           </div>
-
-
-          {/* Repeat the above structure for each project */}
         </div>
-        <Modal
+      </div>
+    </div>
+    <Modal
           isOpen={modalOpen}
           onClose={() => setModalOpen(false)}
           projectId={selectedProject.id}
           projectDescription={selectedProject.description}
         />
-      </div>
-    </div>
+  </div>
   );
 };
 

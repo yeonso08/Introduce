@@ -6,9 +6,14 @@ import { SiTypescript } from "react-icons/si";
 import { FaGitAlt } from "react-icons/fa";
 import { SiNotion } from "react-icons/si";
 
+import { useInView } from "react-intersection-observer";
+
 const Skills = () => {
+  const { ref, inView } = useInView({
+    threshold: 0.1
+  });
   return (
-    <div className="bg-white text-black p-10">
+    <div ref={ref} className={`bg-white text-black p-10 ${inView ? 'animate-fadeInBrighten' : ''}`}>
       <h2 className="text-4xl font-bold mb-4">skills</h2>
       <div className="text-lg grid grid-cols-[2fr,1fr,1fr,1fr]">
         <div></div>

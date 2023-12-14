@@ -1,19 +1,19 @@
 export const RingostarModal = () => {
     return (
-        <div className="p-5 bg-white rounded-lg shadow-xl">
-            <h2 className="text-4xl font-bold mb-4 text-black">링고스타</h2>
-            <h2 className="text-2xl font-medium mb-3 text-gray-800">외국인 상대로 한 렌터카 서비스</h2>
+        <div className="p-5 bg-white rounded-lg shadow-xl dark:bg-black">
+            <h2 className="text-4xl font-bold mb-4 text-black dark:text-white">링고스타</h2>
+            <h2 className="text-2xl font-medium mb-3 text-gray-800 dark:text-white">외국인 상대로 한 렌터카 서비스</h2>
 
             {/* Image Gallery or Placeholder */}
             <div className="mb-3">
                 {/* Replace with actual image tags or a carousel component */}
                 <div className="h-64 bg-gray-200 rounded-md flex items-center justify-center">
-                    <span className="text-gray-500">Image Gallery</span>
+                    <span className="text-gray-500 dark:text-white">Image Gallery</span>
                 </div>
             </div>
 
             {/* Project Details */}
-            <div className="mb-6 text-gray-700">
+            <div className="mb-6 text-gray-700 dark:text-white">
                 <div className="space-y-2">
                     <div className="flex justify-start items-baseline space-x-2">
                         <div className="font-semibold">Workplace:</div>
@@ -41,13 +41,13 @@ export const RingostarModal = () => {
             </div>
 
             {/* Development Story */}
-            <div className="mb-4 text-gray-700">
+            <div className="mb-4 text-gray-700 dark:text-white">
                 <h3 className="font-semibold text-lg mb-2">Development Story</h3>
                 <p>이 프로젝트는 외국인 관광객들을 목표로 한 외국인 전용 렌트카 홈페이지 입니다. 따라서 i18n을 사용하여 다국어 지원을 했습니다. vu2.7버전을 사용하였고 입사하고 처음 맡은 프로젝트입니다. 그리고 처음 쓰는 vue입니다.</p>
             </div>
 
             {/* Closing Thoughts or Testimonials */}
-            <div className="text-gray-700">
+            <div className="text-gray-700 dark:text-white">
                 <h3 className="font-semibold text-lg mb-2">Closing Thoughts</h3>
                 <p>Your closing thoughts or client testimonials...</p>
             </div>
@@ -57,20 +57,20 @@ export const RingostarModal = () => {
 
 export const SeniorsModal = () => {
     return (
-        <div className="p-5 bg-white rounded-lg shadow-xl">
-            <h2 className="text-4xl font-bold mb-4 text-black">Seniors</h2>
-            <h2 className="text-2xl font-medium mb-3 text-gray-800">6070분들의 재취업을 위한 프로젝트</h2>
+        <div className="p-5 bg-white rounded-lg shadow-xl dark:bg-black">
+            <h2 className="text-4xl font-bold mb-4 text-black dark:text-white">Seniors</h2>
+            <h2 className="text-2xl font-medium mb-3 text-gray-800 dark:text-white">6070분들의 재취업을 위한 프로젝트</h2>
 
             {/* Image Gallery or Placeholder */}
             <div className="mb-3">
                 {/* Replace with actual image tags or a carousel component */}
                 <div className="h-64 bg-gray-200 rounded-md flex items-center justify-center">
-                    <span className="text-gray-500">Image Gallery</span>
+                    <span className="text-gray-500 dark:text-white">Image Gallery</span>
                 </div>
             </div>
 
             {/* Project Details */}
-            <div className="mb-6 text-gray-700">
+            <div className="mb-6 text-gray-700 dark:text-white">
                 <div className="space-y-2">
                     <div className="flex justify-start items-baseline space-x-2">
                         <div className="font-semibold">Workplace:</div>
@@ -98,13 +98,13 @@ export const SeniorsModal = () => {
             </div>
 
             {/* Development Story */}
-            <div className="mb-4 text-gray-700">
+            <div className="mb-4 text-gray-700 dark:text-white">
                 <h3 className="font-semibold text-lg mb-2">Development Story</h3>
                 <p>이 프로젝트는 제가 직접 개발 커뮤니티 사이트에 글을 올려 사람들을 모집하여 진행한 프로젝트입니다. 처음으로 Next와 TypeScript 그리고 Tailwind를 써봤습니다. 저는 여기서 채팅 부분을 맞아 채팅 시스템을 개발 했습니다. 채팅을 구현하기 위해 STOMP를 썼습니다.</p>
             </div>
 
             {/* Closing Thoughts or Testimonials */}
-            <div className="text-gray-700">
+            <div className="text-gray-700 dark:text-white">
                 <h3 className="font-semibold text-lg mb-2">Closing Thoughts</h3>
                 <p>Your closing thoughts or client testimonials...</p>
             </div>
@@ -114,9 +114,9 @@ export const SeniorsModal = () => {
 
 export const KinderGrewModal = () => {
     return (
-        <div className="p-5 bg-white rounded-lg shadow-xl">
-            <h2 className="text-4xl font-bold mb-4 text-black">킨더그루</h2>
-            <h2 className="text-2xl font-medium mb-3 text-gray-800">유치원이 아이의 교육에 보다 집중할 수 있도록 아이 관리를 지원하는 통합 관리 서비스</h2>
+        <div className="p-5 bg-white rounded-lg shadow-xl dark:bg-black">
+            <h2 className="text-4xl font-bold mb-4 text-black dark:text-white">킨더그루</h2>
+            <h2 className="text-2xl font-medium mb-3 text-gray-800 dark:text-white">유치원이 아이의 교육에 보다 집중할 수 있도록 아이 관리를 지원하는 통합 관리 서비스</h2>
 
             {/* Image Gallery or Placeholder */}
             <div className="mb-3">
@@ -127,7 +127,7 @@ export const KinderGrewModal = () => {
             </div>
 
             {/* Project Details */}
-            <div className="mb-6 text-gray-700">
+            <div className="mb-6 text-gray-700 dark:text-white">
                 <div className="space-y-2">
                     <div className="flex justify-start items-baseline space-x-2">
                         <div className="font-semibold">Workplace:</div>
@@ -160,13 +160,13 @@ export const KinderGrewModal = () => {
             </div>
 
             {/* Development Story */}
-            <div className="mb-4 text-gray-700">
+            <div className="mb-4 text-gray-700 dark:text-white">
                 <h3 className="font-semibold text-lg mb-2">Development Story</h3>
                 <p>Tell your story here...</p>
             </div>
 
             {/* Closing Thoughts or Testimonials */}
-            <div className="text-gray-700">
+            <div className="text-gray-700 dark:text-white">
                 <h3 className="font-semibold text-lg mb-2">Closing Thoughts</h3>
                 <p>Your closing thoughts or client testimonials...</p>
             </div>

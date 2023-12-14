@@ -6,7 +6,7 @@ import { KinderGrewModal, RingostarModal, SeniorsModal } from '../modal/ModalCon
 import { useInView } from "react-intersection-observer";
 
 const Projects = () => {
-  const [modalOpen, setModalOpen] = useState(false);
+  const [modalOpen, setModalOpen] = useState<boolean>(false);
   const [selectedProject, setSelectedProject] = useState<{ id: string, description: React.ReactNode }>({ id: '', description: '' });
   
   const { ref, inView } = useInView({

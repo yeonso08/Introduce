@@ -13,7 +13,7 @@ const Skills = () => {
     threshold: 0.1
   });
   return (
-    <div ref={ref} className={`bg-white text-black p-10 ${inView ? 'animate-fadeInBrighten' : ''}`}>
+    <div ref={ref} className={`bg-white text-black p-10 dark:bg-black dark:text-white ${inView ? 'animate-fadeInBrighten' : ''}`}>
       <h2 className="text-4xl font-bold mb-4">skills</h2>
       <div className="text-lg grid grid-cols-[2fr,1fr,1fr,1fr]">
         <div></div>
@@ -31,7 +31,7 @@ const Skills = () => {
             <span className="ml-2 text-lg font-semibold">React</span>
           </div>
           <div className="mb-4 flex items-center">
-            <SiNextdotjs className="w-8 h-8"/>
+            <SiNextdotjs className="w-8 h-8" />
             <span className="ml-2 text-lg font-semibold">Next.js</span>
           </div>
           <div className="mb-4 flex items-center">
@@ -49,7 +49,7 @@ const Skills = () => {
             <span className="ml-2 text-lg font-semibold">Slack</span>
           </div>
           <div className="mb-4 flex items-center">
-            <SiNotion className="w-8 h-8"/>
+            <SiNotion className="w-8 h-8" />
             <span className="ml-2 text-lg font-semibold">Notion</span>
           </div>
         </div>

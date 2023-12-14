@@ -14,7 +14,7 @@ const About = () => {
   });
   return (
     <div ref={ref} className={`bg-black text-white p-10 ${inView ? 'animate-fadeInBrighten' : ''}`} id="about">
-    <h2 className="text-4xl font-bold mb-4">About</h2>
+      <h2 className="text-4xl font-bold mb-4">About</h2>
       <div className="text-lg grid grid-cols-[2fr,1fr,1fr,1fr]">
         <div>사진</div>
         <div>
@@ -23,31 +23,31 @@ const About = () => {
             <span className="ml-2 text-lg font-semibold">Jaeyeon Hwang</span>
           </div>
           <div className="mb-2 text-lg font-semibold flex items-center">
-          <FaBirthdayCake />
+            <FaBirthdayCake />
             <span className="ml-2 text-lg font-semibold">1997.08.25</span>
           </div>
           <div className="mb-2 text-lg font-semibold flex items-center">
-          <AiOutlineHome />
+            <AiOutlineHome />
             <span className="ml-2 text-lg font-semibold">서울특별시 강동구</span>
           </div>
           <div className="mb-2 text-lg font-semibold flex items-center">
-          <MdOutlineEmail />
+            <MdOutlineEmail />
             <span className="ml-2 text-lg font-semibold">hjng0825@gmail.com</span>
           </div>
         </div>
         <div>
-        <div className="mb-2 text-lg font-semibold flex items-center">
-          <CiPhone />
+          <div className="mb-2 text-lg font-semibold flex items-center">
+            <CiPhone />
             <span className="ml-2 text-lg font-semibold">010-9985-3743</span>
           </div>
           <div className="mb-2 text-lg font-semibold flex items-center">
-          <FaGithub />
+            <FaGithub />
             <a href="https://github.com/yeonso08" className="ml-2 text-lg font-semibold">GIT</a>
           </div>
           <div className="mb-2 text-lg font-semibold flex items-center">
-          <SiBloglovin  />
+            <SiBloglovin />
             <a href="https://velog.io/@hjng0825" className="ml-2 text-lg font-semibold">BLOG</a>
-          </div>          
+          </div>
         </div>
       </div>
     </div>

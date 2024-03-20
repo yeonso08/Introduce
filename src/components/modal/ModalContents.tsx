@@ -1,3 +1,5 @@
+import React from "react";
+
 export const RingostarModal = () => {
     return (
         <div className="p-5 bg-white rounded-lg shadow-2xl dark:bg-black">
@@ -58,15 +60,17 @@ export const RingostarModal = () => {
 
 export const SeniorsModal = () => {
     return (
-        <div className="p-5 bg-white rounded-lg shadow-xl dark:bg-black">
+        <div className="p-5 bg-white rounded-lg shadow-2xl dark:bg-black">
             <h2 className="text-4xl font-bold mb-4 text-black dark:text-white">Seniors</h2>
             <h2 className="text-2xl font-medium mb-3 text-gray-800 dark:text-white">6070분들의 재취업을 위한 프로젝트</h2>
 
             {/* Image Gallery or Placeholder */}
             <div className="mb-3">
                 {/* Replace with actual image tags or a carousel component */}
-                <div className="h-64 bg-gray-200 rounded-md flex items-center justify-center">
-                    <span className="text-gray-500 dark:text-white">Image Gallery</span>
+                <div className="h-64 gap-10 rounded-md flex items-center justify-center">
+                    <img src="\SeniorsMain.png" alt="Seniors" className=" h-full"/>
+                    <img src="\SeniorsChat.png" alt="Seniors" className=" h-full"/>
+                    <img src="\SeniorsChatButton.png" alt="Seniors" className=" h-full"/>
                 </div>
             </div>
 
@@ -87,7 +91,7 @@ export const SeniorsModal = () => {
                     </div>
                     <div className="flex justify-start items-baseline space-x-2">
                         <div className="font-semibold">Technology stack:</div>
-                        <div>Next, TypeScript, Tailwind, Recoil, Tanstack Query</div>
+                        <div>Next, TypeScript, Tailwind, Recoil, Tanstack Query, Stomp</div>
                     </div>
                     <div className="flex justify-start items-baseline space-x-2">
                         <div className="font-semibold">URL:</div>
@@ -105,13 +109,9 @@ export const SeniorsModal = () => {
             {/* Development Story */}
             <div className="mb-4 text-gray-700 dark:text-white">
                 <h3 className="font-semibold text-lg mb-2">Development Story</h3>
-                <p>이 프로젝트는 제가 직접 개발 커뮤니티 사이트에 글을 올려 사람들을 모집하여 진행한 프로젝트입니다. 처음으로 Next와 TypeScript 그리고 Tailwind를 써봤습니다. 저는 여기서 채팅 부분을 맞아 채팅 시스템을 개발 했습니다. 채팅을 구현하기 위해 STOMP를 썼습니다.</p>
-            </div>
-
-            {/* Closing Thoughts or Testimonials */}
-            <div className="text-gray-700 dark:text-white">
-                <h3 className="font-semibold text-lg mb-2">Closing Thoughts</h3>
-                <p>Your closing thoughts or client testimonials...</p>
+                <p className="mb-1">이 프로젝트는 제가 직접 개발 커뮤니티 사이트에 글을 올려 사람들을 모집하여 진행한 프로젝트입니다.</p>
+                <p className="mb-1"> 담당역할은 채팅 부분을 맞아 채팅 시스템을 개발 했습니다.</p>
+                <p className="mb-1">Stomp를 이용해 실시간 채팅 및 실시간 접속 현황을 구현 하였습니다.</p>
             </div>
         </div>
     )

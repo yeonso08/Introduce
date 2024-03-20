@@ -29,7 +29,7 @@ const Projects = () => {
             {/* Project Image */}
             <div className="flex-none w-48 h-32 bg-gray-500 mr-4 cursor-pointer hover:scale-110 transition-transform"
                  onClick={() => openModal('1', <RingostarModal/>)}>
-              <img src="\ringoStarImage.png" alt="Ringo Star" className=" h-full"/>
+              <img src="\RingoStarImage.png" alt="Ringo Star" className=" h-full"/>
             </div>
 
             {/* Project Description */}
@@ -43,7 +43,7 @@ const Projects = () => {
           <div className="flex items-center mb-8">
             {/* Project Image */}
             <div className="flex-none w-48 h-32 bg-gray-500 mr-4 cursor-pointer hover:scale-110 transition-transform" onClick={() => openModal('2', <SeniorsModal />)}>
-              {/* <img src="path_to_your_image.jpg" alt="Project Image" className="w-full h-full object-cover" /> */}
+              <img src="\SeniorsMain.png" alt="Seniors" className=" h-full"/>
             </div>
 
             {/* Project Description */}

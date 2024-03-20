@@ -27,13 +27,14 @@ const Projects = () => {
         <div>
           <div className="flex items-center mb-8">
             {/* Project Image */}
-            <div className="flex-none w-48 h-32 bg-gray-500 mr-4 cursor-pointer hover:scale-110 transition-transform" onClick={() => openModal('1', <RingostarModal />)}>
-              {/* Insert <img> tag or background image here */}
+            <div className="flex-none w-48 h-32 bg-gray-500 mr-4 cursor-pointer hover:scale-110 transition-transform"
+                 onClick={() => openModal('1', <RingostarModal/>)}>
+              <img src="\ringoStarImage.png" alt="Ringo Star" className=" h-full"/>
             </div>
 
             {/* Project Description */}
             <div className="flex-grow">
-              <h3 className="text-2xl font-bold">링고스타</h3>
+            <h3 className="text-2xl font-bold">링고스타</h3>
               <p>외국인 상대로 한 렌터카 서비스</p>
               {/* Add more details or buttons/links as needed */}
             </div>

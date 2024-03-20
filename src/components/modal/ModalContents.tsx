@@ -1,14 +1,16 @@
 export const RingostarModal = () => {
     return (
-        <div className="p-5 bg-white rounded-lg shadow-xl dark:bg-black">
+        <div className="p-5 bg-white rounded-lg shadow-2xl dark:bg-black">
             <h2 className="text-4xl font-bold mb-4 text-black dark:text-white">링고스타</h2>
             <h2 className="text-2xl font-medium mb-3 text-gray-800 dark:text-white">외국인 상대로 한 렌터카 서비스</h2>
 
             {/* Image Gallery or Placeholder */}
             <div className="mb-3">
                 {/* Replace with actual image tags or a carousel component */}
-                <div className="h-64 bg-gray-200 rounded-md flex items-center justify-center">
-                    <span className="text-gray-500 dark:text-white">Image Gallery</span>
+                <div className="h-64 gap-5 rounded-md flex items-center justify-center">
+                    <img src="\RingoStarImage.png" alt="Ringo Star" className="h-full"/>
+                    <img src="\RingoStarList.png" alt="Ringo Star" className="h-full"/>
+                    <img src="\RingoStarMap.png" alt="Ringo Star" className="h-full"/>
                 </div>
             </div>
 
@@ -21,7 +23,7 @@ export const RingostarModal = () => {
                     </div>
                     <div className="flex justify-start items-baseline space-x-2">
                         <div className="font-semibold">Development period:</div>
-                        <div>2023.10 ~ 2023.11 (2개월)</div>
+                        <div>2023.10 ~ 2023.12 (3개월)</div>
                     </div>
                     <div className="flex justify-start items-baseline space-x-2">
                         <div className="font-semibold">Development scope:</div>
@@ -29,7 +31,7 @@ export const RingostarModal = () => {
                     </div>
                     <div className="flex justify-start items-baseline space-x-2">
                         <div className="font-semibold">Technology stack:</div>
-                        <div>Vue.js, Vuex</div>
+                        <div>Vue.js, Vuex, Bootstrap4, i18n</div>
                     </div>
                     <div className="flex justify-start items-baseline space-x-2">
                         <div className="font-semibold">URL:</div>
@@ -43,13 +45,12 @@ export const RingostarModal = () => {
             {/* Development Story */}
             <div className="mb-4 text-gray-700 dark:text-white">
                 <h3 className="font-semibold text-lg mb-2">Development Story</h3>
-                <p>이 프로젝트는 외국인 관광객들을 목표로 한 외국인 전용 렌트카 홈페이지 입니다. 따라서 i18n을 사용하여 다국어 지원을 했습니다. vu2.7버전을 사용하였고 입사하고 처음 맡은 프로젝트입니다. 그리고 처음 쓰는 vue입니다.</p>
-            </div>
-
-            {/* Closing Thoughts or Testimonials */}
-            <div className="text-gray-700 dark:text-white">
-                <h3 className="font-semibold text-lg mb-2">Closing Thoughts</h3>
-                <p>Your closing thoughts or client testimonials...</p>
+                <div>
+                    <p className="mb-1">이 프로젝트는 외국인 관광객들을 목표로 한 외국인 전용 렌트카 홈페이지 입니다.</p>
+                    <p className="mb-1">i18n을 사용하여 다국어 지원을 했습니다 </p>
+                    <p className="mb-1">결제 모듈을 사용해 국내 및 해외 결제가 가능하게 했습니다.</p>
+                    <p>Google Map을 이용하여 기사님의 실시간 위치를 볼 수 있게 했습니다.</p>
+                </div>
             </div>
         </div>
     );
@@ -90,9 +91,13 @@ export const SeniorsModal = () => {
                     </div>
                     <div className="flex justify-start items-baseline space-x-2">
                         <div className="font-semibold">URL:</div>
-                        <a href="https://ringostar.co.kr/" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-600 inline-block ml-2">
+                        <a href="https://seniors-job.vercel.app/" target="_blank" rel="noopener noreferrer"
+                           className="text-blue-500 hover:text-blue-600 inline-block ml-2">
                             https://seniors-job.vercel.app/
                         </a>
+                    </div>
+                    <div className="text-sm text-red-500">
+                        (현재 서버가 닫혀 있습니다.)
                     </div>
                 </div>
             </div>

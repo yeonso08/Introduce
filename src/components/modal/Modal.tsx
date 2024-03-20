@@ -32,7 +32,7 @@ const Modal: React.FC<ProjectModalProps> = ({ isOpen, onClose, projectDescriptio
         <button onClick={onClose} className="text-black absolute top-5 right-5 dark:text-white">
           닫기
         </button>
-        <p>{projectDescription}</p>
+        <p className="mt-5">{projectDescription}</p>
       </div>
     </div>
   );

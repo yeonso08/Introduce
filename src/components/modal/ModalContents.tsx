@@ -10,7 +10,7 @@ export const RingostarModal = () => {
             <div className="mb-3">
                 {/* Replace with actual image tags or a carousel component */}
                 <div className="h-64 gap-5 rounded-md flex items-center justify-center">
-                    <img src="\RingoStarImage.png" alt="Ringo Star" className="h-full"/>
+                    <img src="\RingoStarMain.png" alt="Ringo Star" className="h-full"/>
                     <img src="\RingoStarList.png" alt="Ringo Star" className="h-full"/>
                     <img src="\RingoStarMap.png" alt="Ringo Star" className="h-full"/>
                 </div>
@@ -21,7 +21,7 @@ export const RingostarModal = () => {
                 <div className="space-y-2">
                     <div className="flex justify-start items-baseline space-x-2">
                         <div className="font-semibold">Workplace:</div>
-                        <div>아이작에스엔씨</div>
+                        <div>아이작에스엔씨(주)</div>
                     </div>
                     <div className="flex justify-start items-baseline space-x-2">
                         <div className="font-semibold">Development period:</div>
@@ -86,6 +86,10 @@ export const SeniorsModal = () => {
                         <div>2023.06 ~ 2023.11 (6개월)</div>
                     </div>
                     <div className="flex justify-start items-baseline space-x-2">
+                        <div className="font-semibold">Development member:</div>
+                        <div>FE: 3, BE: 3, DE: 1, PM: 1</div>
+                    </div>
+                    <div className="flex justify-start items-baseline space-x-2">
                         <div className="font-semibold">Development scope:</div>
                         <div>Front end</div>
                     </div>
@@ -110,7 +114,8 @@ export const SeniorsModal = () => {
             <div className="mb-4 text-gray-700 dark:text-white">
                 <h3 className="font-semibold text-lg mb-2">Development Story</h3>
                 <p className="mb-1">이 프로젝트는 제가 직접 개발 커뮤니티 사이트에 글을 올려 사람들을 모집하여 진행한 프로젝트입니다.</p>
-                <p className="mb-1"> 담당역할은 채팅 부분을 맞아 채팅 시스템을 개발 했습니다.</p>
+                <p className="mb-1">도메인은 6070분들의 재취업을 위해 계획했습니다.</p>
+                <p className="mb-1"> 담당역할은 채팅 부분을 맡아 채팅 시스템을 개발 했습니다.</p>
                 <p className="mb-1">Stomp를 이용해 실시간 채팅 및 실시간 접속 현황을 구현 하였습니다.</p>
             </div>
         </div>
@@ -122,12 +127,11 @@ export const KinderGrewModal = () => {
         <div className="p-5 bg-white rounded-lg shadow-xl dark:bg-black">
             <h2 className="text-4xl font-bold mb-4 text-black dark:text-white">킨더그루</h2>
             <h2 className="text-2xl font-medium mb-3 text-gray-800 dark:text-white">유치원이 아이의 교육에 보다 집중할 수 있도록 아이 관리를 지원하는 통합 관리 서비스</h2>
-
-            {/* Image Gallery or Placeholder */}
             <div className="mb-3">
-                {/* Replace with actual image tags or a carousel component */}
-                <div className="h-64 bg-gray-200 rounded-md flex items-center justify-center">
-                    <span className="text-gray-500">Image Gallery</span>
+                <div className="h-64 gap-16 rounded-md flex items-center justify-center">
+                    <img src="\KinderGrew3.png" alt="KinderGrew" className=" h-full"/>
+                    <img src="\KinderGrew2.png" alt="KinderGrew" className=" h-full"/>
+                    <img src="\KinderGrew1.png" alt="KinderGrew" className=" h-full"/>
                 </div>
             </div>
 
@@ -143,8 +147,12 @@ export const KinderGrewModal = () => {
                         <div>2023.03 ~ 2023.04 (2개월)</div>
                     </div>
                     <div className="flex justify-start items-baseline space-x-2">
-                        <div className="font-semibold">Development scope:</div>
+                        <div className="font-semibold">Development scale:</div>
                         <div>Front end</div>
+                    </div>
+                    <div className="flex justify-start items-baseline space-x-2">
+                        <div className="font-semibold">Development member:</div>
+                        <div>FE: 3, BE: 4, DE: 1</div>
                     </div>
                     <div className="flex justify-start items-baseline space-x-2">
                         <div className="font-semibold">Technology stack:</div>
@@ -153,7 +161,8 @@ export const KinderGrewModal = () => {
                     <div className="flex flex-col space-y-2">
                         <div className="flex justify-start items-baseline space-x-2">
                             <div className="font-semibold">URL:</div>
-                            <a href="https://front-omega-vert.vercel.app/main" target="_blank" rel="noopener noreferrer" className="text-blue-500 hover:text-blue-600">
+                            <a href="https://front-omega-vert.vercel.app/main" target="_blank" rel="noopener noreferrer"
+                               className="text-blue-500 hover:text-blue-600">
                                 https://front-omega-vert.vercel.app/main
                             </a>
                         </div>
@@ -167,13 +176,8 @@ export const KinderGrewModal = () => {
             {/* Development Story */}
             <div className="mb-4 text-gray-700 dark:text-white">
                 <h3 className="font-semibold text-lg mb-2">Development Story</h3>
-                <p>Tell your story here...</p>
-            </div>
-
-            {/* Closing Thoughts or Testimonials */}
-            <div className="text-gray-700 dark:text-white">
-                <h3 className="font-semibold text-lg mb-2">Closing Thoughts</h3>
-                <p>Your closing thoughts or client testimonials...</p>
+                <p className="mb-1">이 프로젝트는 유치원 통합 관리를 목표로 한 서비스 입니다.</p>
+                <p className="mb-1">실제 일주일동안 유저들에게 테스트를 진행하여 40분의 피드백을 받아서 유저 피드백을 반영하는 경험을 하였습니다.</p>
             </div>
         </div>
     )

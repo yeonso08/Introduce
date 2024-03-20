@@ -42,11 +42,11 @@ const About = () => {
           </div>
           <div className="mb-2 text-lg font-semibold flex items-center">
             <FaGithub />
-            <a href="https://github.com/yeonso08" className="ml-2 text-lg font-semibold" target="_blank" rel="noopener noreferrer">GIT</a>
+            <a href="https://github.com/yeonso08" className="ml-2 text-lg font-semibold">GIT</a>
           </div>
           <div className="mb-2 text-lg font-semibold flex items-center">
             <SiBloglovin />
-            <a href="https://velog.io/@hjng0825" className="ml-2 text-lg font-semibold" target="_blank" rel="noopener noreferrer">BLOG</a>
+            <a href="https://velog.io/@hjng0825" className="ml-2 text-lg font-semibold">BLOG</a>
           </div>
         </div>
       </div>

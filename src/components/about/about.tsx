@@ -9,14 +9,12 @@ import { SiBloglovin } from "react-icons/si";
 import { useInView } from "react-intersection-observer";
 
 const About = () => {
-  const { ref, inView } = useInView({
-    threshold: 0.2
-  });
+
   return (
-    <div ref={ref} className={`bg-black text-white p-10 ${inView ? 'animate-fadeInBrighten' : ''}`} id="about">
+    <div className={`bg-black text-white p-10`} id="about">
       <h2 className="text-4xl font-bold mb-4">About</h2>
       <div className="text-lg grid grid-cols-[2fr,1fr,1fr,1fr]">
-        <div>사진</div>
+        <div></div>
         <div>
           <div className="mb-2 text-lg font-semibold flex items-center">
             <IoPersonSharp />

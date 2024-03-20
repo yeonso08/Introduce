@@ -14,7 +14,7 @@ const config: Config = {
       },
       animation: {
         blink: 'blink 0.8s steps(1) infinite',
-        fadeInBrighten: 'fadeInBrighten 1.5s ease-in-out forwards',
+        fadeInBrighten: 'fadeInBrighten 2s ease-in-out forwards',
       },
       keyframes: {
         blink: {

@@ -9,9 +9,9 @@ const Projects = () => {
   const [modalOpen, setModalOpen] = useState<boolean>(false);
   const [selectedProject, setSelectedProject] = useState<{ id: string, description: React.ReactNode }>({ id: '', description: '' });
   
-  const { ref, inView } = useInView({
-    threshold: 0.2
-  });
+  // const { ref, inView } = useInView({
+  //   threshold: 0.2
+  // });
 
   const openModal = (id: string, description: React.ReactNode) => {
     setSelectedProject({ id, description });
@@ -20,8 +20,9 @@ const Projects = () => {
 
   return (
   <div>
-    <div ref={ref} className={`bg-black text-white p-10 ${inView ? 'animate-fadeInBrighten' : ''}`} id='projects'>
-      <h2 className="text-4xl font-bold mb-4">Projects</h2>
+    {/*<div ref={ref} className={`bg-black text-white p-10 ${inView ? 'animate-fadeInBrighten' : ''}`} id='projects'>*/}
+    <div  className={`bg-black text-white p-10`} id='projects'>
+    <h2 className="text-4xl font-bold mb-4">Projects</h2>
       <div className="flex flex-col items-center justify-center">
         {/* Example of a single project entry */}
         <div>

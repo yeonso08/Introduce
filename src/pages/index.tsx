@@ -4,6 +4,7 @@ import About from '@/components/about/about';
 import Skills from '@/components/skills/skills';
 import Projects from '@/components/projects/projects';
 import Footer from '@/components/layout/Footer';
+import Career from "@/components/career/Career";
 
 export default function Home() {
   const [text, setText] = useState<string>('');
@@ -39,6 +40,7 @@ export default function Home() {
       <About />
       <Skills />
       <Projects />
+        <Career />
       <Footer />
     </div>
   );

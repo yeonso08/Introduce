@@ -9,12 +9,10 @@ import { SiNotion } from "react-icons/si";
 import { useInView } from "react-intersection-observer";
 
 const Skills = () => {
-  const { ref, inView } = useInView({
-    threshold: 0.1
-  });
+
   return (
-    <div ref={ref} className={`bg-white text-black p-10 dark:bg-black dark:text-white ${inView ? 'animate-fadeInBrighten' : ''}`}>
-      <h2 className="text-4xl font-bold mb-4">skills</h2>
+    <div  className={`bg-white text-black p-10 dark:bg-black dark:text-white`}>
+      <h2 className="text-4xl font-bold mb-4">Skills</h2>
       <div className="text-lg grid grid-cols-[2fr,1fr,1fr,1fr]">
         <div></div>
         <div>

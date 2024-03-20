@@ -124,7 +124,7 @@ export const SeniorsModal = () => {
 
 export const KinderGrewModal = () => {
     return (
-        <div className="p-5 bg-white rounded-lg shadow-xl dark:bg-black">
+        <div className="p-5 bg-white rounded-lg shadow-2xl dark:bg-black">
             <h2 className="text-4xl font-bold mb-4 text-black dark:text-white">킨더그루</h2>
             <h2 className="text-2xl font-medium mb-3 text-gray-800 dark:text-white">유치원이 아이의 교육에 보다 집중할 수 있도록 아이 관리를 지원하는 통합 관리 서비스</h2>
             <div className="mb-3">
@@ -147,7 +147,7 @@ export const KinderGrewModal = () => {
                         <div>2023.03 ~ 2023.04 (2개월)</div>
                     </div>
                     <div className="flex justify-start items-baseline space-x-2">
-                        <div className="font-semibold">Development scale:</div>
+                        <div className="font-semibold">Development scope:</div>
                         <div>Front end</div>
                     </div>
                     <div className="flex justify-start items-baseline space-x-2">
@@ -178,6 +178,51 @@ export const KinderGrewModal = () => {
                 <h3 className="font-semibold text-lg mb-2">Development Story</h3>
                 <p className="mb-1">이 프로젝트는 유치원 통합 관리를 목표로 한 서비스 입니다.</p>
                 <p className="mb-1">실제 일주일동안 유저들에게 테스트를 진행하여 40분의 피드백을 받아서 유저 피드백을 반영하는 경험을 하였습니다.</p>
+            </div>
+        </div>
+    )
+};
+
+export const VringoModal = () => {
+    return (
+        <div className="p-5 bg-white rounded-lg shadow-2xl dark:bg-black">
+            <h2 className="text-4xl font-bold mb-4 text-black dark:text-white">Vringo ICMS</h2>
+            <h2 className="text-2xl font-medium mb-3 text-gray-800 dark:text-white">KT 부가서비스인 Vringo 관리자 페이지</h2>
+            <div className="mb-3">
+                <div className="h-64 gap-5 rounded-md flex items-center justify-center">
+                    <img src="\VringoChart.png" alt="KinderGrew" className=" h-full"/>
+                    <img src="\VringoGraph.png" alt="KinderGrew" className=" h-full"/>
+                    <img src="\VringoServer.png" alt="KinderGrew" className=" h-full"/>
+                </div>
+            </div>
+
+            {/* Project Details */}
+            <div className="mb-6 text-gray-700 dark:text-white">
+                <div className="space-y-2">
+                    <div className="flex justify-start items-baseline space-x-2">
+                        <div className="font-semibold">Workplace:</div>
+                        <div>아이작에스엔씨(주)</div>
+                    </div>
+                    <div className="flex justify-start items-baseline space-x-2">
+                        <div className="font-semibold">Development period:</div>
+                        <div>2024.01 ~ 2024.02 (2개월)</div>
+                    </div>
+                    <div className="flex justify-start items-baseline space-x-2">
+                        <div className="font-semibold">Development scope:</div>
+                        <div>Front end</div>
+                    </div>
+                    <div className="flex justify-start items-baseline space-x-2">
+                        <div className="font-semibold">Technology stack:</div>
+                        <div>React,TypeScript, Zustand, Tanstack Query, Tailwind, Shadcn/ui</div>
+                    </div>
+                </div>
+            </div>
+
+            {/* Development Story */}
+            <div className="mb-4 text-gray-700 dark:text-white">
+                <h3 className="font-semibold text-lg mb-2">Development Story</h3>
+                <p className="mb-1">KT 부가서비스인 Vringo 관리자 페이지 Vue2에서 React18로 마이그레이션 진행</p>
+                <p className="mb-1">프론트영역 혼자서 마이그레이션 진행 완료</p>
             </div>
         </div>
     )

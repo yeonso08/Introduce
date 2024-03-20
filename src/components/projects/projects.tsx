@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 import Modal from "../modal/Modal";
-import { KinderGrewModal, RingostarModal, SeniorsModal } from '../modal/ModalContents';
+import {KinderGrewModal, RingostarModal, SeniorsModal, VringoModal} from '../modal/ModalContents';
 
 import { useInView } from "react-intersection-observer";
 
@@ -28,14 +28,15 @@ const Projects = () => {
           <div className="flex items-center mb-8">
             {/* Project Image */}
             <div className="flex-none w-48 h-32 bg-gray-500 mr-4 cursor-pointer hover:scale-110 transition-transform"
-                 onClick={() => openModal('2', <SeniorsModal/>)}>
-              <img src="\SeniorsMain.png" alt="Seniors" className=" h-full"/>
+                 onClick={() => openModal('2', <VringoModal/>)}>
+              <img src="\VringoChart.png" alt="Vringo" className=" h-full"/>
             </div>
 
             {/* Project Description */}
             <div className="flex-grow">
               <h3 className="text-2xl font-bold">Vringo ICMS</h3>
               <p>KT 부가서비스인 Vringo 관리자 페이지</p>
+              <p>마이그레이션</p>
               {/* Add more details or buttons/links as needed */}
             </div>
           </div>

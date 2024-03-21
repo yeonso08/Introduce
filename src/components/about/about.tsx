@@ -11,44 +11,44 @@ import { useInView } from "react-intersection-observer";
 const About = () => {
 
   return (
-    <div className={`bg-black text-white p-10`} id="about">
-      <h2 className="text-4xl font-bold mb-4">About</h2>
-      <div className="text-lg grid grid-cols-[2fr,1fr,1fr,1fr]">
-        <div></div>
-        <div>
-          <div className="mb-2 text-lg font-semibold flex items-center">
-            <IoPersonSharp />
-            <span className="ml-2 text-lg font-semibold">Jaeyeon Hwang</span>
+      <div className={`bg-black text-white p-10`} id="about">
+        <h2 className="text-4xl font-bold mb-4">About</h2>
+        <div className="flex justify-center">
+          <div>
+            <div className="mb-2 text-sm font-semibold flex items-center sm:text-lg">
+              <IoPersonSharp/>
+              <span className="ml-2 text-sm font-semibold sm:text-lg">Jaeyeon Hwang</span>
+            </div>
+            <div className="mb-2 text-sm font-semibold flex items-center sm:text-lg">
+              <FaBirthdayCake/>
+              <span className="ml-2 text-sm font-semibold sm:text-lg">1997.08.25</span>
+            </div>
+            <div className="mb-2 text-sm font-semibold flex items-center sm:text-lg">
+              <AiOutlineHome/>
+              <span className="ml-2 text-sm font-semibold sm:text-lg">서울특별시 강동구</span>
+            </div>
+            <div className="mb-2 text-sm font-semibold flex items-center sm:text-lg">
+              <MdOutlineEmail/>
+              <span className="ml-2 text-sm font-semibold sm:text-lg">hjng0825@gmail.com</span>
+            </div>
           </div>
-          <div className="mb-2 text-lg font-semibold flex items-center">
-            <FaBirthdayCake />
-            <span className="ml-2 text-lg font-semibold">1997.08.25</span>
-          </div>
-          <div className="mb-2 text-lg font-semibold flex items-center">
-            <AiOutlineHome />
-            <span className="ml-2 text-lg font-semibold">서울특별시 강동구</span>
-          </div>
-          <div className="mb-2 text-lg font-semibold flex items-center">
-            <MdOutlineEmail />
-            <span className="ml-2 text-lg font-semibold">hjng0825@gmail.com</span>
-          </div>
-        </div>
-        <div>
-          <div className="mb-2 text-lg font-semibold flex items-center">
-            <CiPhone />
-            <span className="ml-2 text-lg font-semibold">010-9985-3743</span>
-          </div>
-          <div className="mb-2 text-lg font-semibold flex items-center">
-            <FaGithub />
-            <a href="https://github.com/yeonso08" className="ml-2 text-lg font-semibold">GIT</a>
-          </div>
-          <div className="mb-2 text-lg font-semibold flex items-center">
-            <SiBloglovin />
-            <a href="https://velog.io/@hjng0825" className="ml-2 text-lg font-semibold">BLOG</a>
+          <div className="sm:p-16"></div>
+          <div>
+            <div className="mb-2 text-sm font-semibold flex items-center sm:text-lg">
+              <CiPhone/>
+              <span className="ml-2 text-sm font-semibold sm:text-lg">010-9985-3743</span>
+            </div>
+            <div className="mb-2 text-sm font-semibold flex items-center sm:text-lg">
+              <FaGithub/>
+              <a href="https://github.com/yeonso08" className="ml-2 text-sm font-semibold sm:text-lg">GIT</a>
+            </div>
+            <div className="mb-2 text-sm font-semibold flex items-center sm:text-lg">
+              <SiBloglovin/>
+              <a href="https://velog.io/@hjng0825" className="ml-2 text-sm font-semibold sm:text-lg">BLOG</a>
+            </div>
           </div>
         </div>
       </div>
-    </div>
   );
 };
 

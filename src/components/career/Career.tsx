@@ -4,12 +4,12 @@ const Career = () => {
 return (
     <div  className={`bg-white text-black p-10 dark:bg-black dark:text-white`} id="career">
         <h2 className="text-4xl font-bold mb-4">Career</h2>
-        <div className="flex flex-grow items-center justify-center">
-                <div className="p-5">
+        <div className="sm:flex flex-grow items-center justify-center">
+                <div className="p-5 border-b-2 sm:border-none">
                 <p className="font-bold text-2xl">아이작에스엔씨(주)</p>
                 <p className="font-medium text-lg">2023.08 ~ 현재</p>
                 </div>
-            <div className="p-5 border-l-2">
+            <div className="p-5 sm:border-l-2">
                 <div className="p-2 mb-5 border-b-2">
                     <p className="font-bold text-2xl">링고스타</p>
                     <div className="font-medium mt-1">

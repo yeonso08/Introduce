@@ -26,7 +26,7 @@ const Projects = () => {
       <div className="flex flex-col items-center justify-center">
         {/* Example of a single project entry */}
         <div>
-          <div className="flex items-center mb-8">
+          <div className="sm:flex items-center mb-8">
             {/* Project Image */}
             <div className="flex-none w-48 h-32 bg-gray-500 mr-4 cursor-pointer hover:scale-110 transition-transform rounded"
                  onClick={() => openModal('2', <VringoModal/>)}>
@@ -41,7 +41,7 @@ const Projects = () => {
               {/* Add more details or buttons/links as needed */}
             </div>
           </div>
-          <div className="flex items-center mb-8">
+          <div className="sm:flex items-center mb-8">
             {/* Project Image */}
             <div className="flex-none w-48 h-32 bg-gray-500 mr-4 cursor-pointer hover:scale-110 transition-transform rounded"
                  onClick={() => openModal('1', <RingostarModal/>)}>
@@ -56,7 +56,7 @@ const Projects = () => {
             </div>
           </div>
 
-          <div className="flex items-center mb-8">
+          <div className="sm:flex items-center mb-8">
             {/* Project Image */}
             <div className="flex-none w-48 h-32 bg-gray-500 mr-4 cursor-pointer hover:scale-110 transition-transform rounded"
                  onClick={() => openModal('2', <SeniorsModal/>)}>
@@ -70,7 +70,7 @@ const Projects = () => {
               {/* Add more details or buttons/links as needed */}
             </div>
           </div>
-          <div className="flex items-center mb-8">
+          <div className="sm:flex items-center mb-8">
             {/* Project Image */}
             <div className="flex-none w-48 h-32 bg-gray-500 mr-4 cursor-pointer hover:scale-110 transition-transform rounded"
                  onClick={() => openModal('3', <KinderGrewModal/>)}>

@@ -28,9 +28,9 @@ const Projects = () => {
         <div>
           <div className="flex items-center mb-8">
             {/* Project Image */}
-            <div className="flex-none w-48 h-32 bg-gray-500 mr-4 cursor-pointer hover:scale-110 transition-transform"
+            <div className="flex-none w-48 h-32 bg-gray-500 mr-4 cursor-pointer hover:scale-110 transition-transform rounded"
                  onClick={() => openModal('2', <VringoModal/>)}>
-              <img src="\VringoChart.png" alt="Vringo" className=" h-full"/>
+              <img src="\VringoChart.png" alt="Vringo" className="rounded h-full"/>
             </div>
 
             {/* Project Description */}
@@ -43,9 +43,9 @@ const Projects = () => {
           </div>
           <div className="flex items-center mb-8">
             {/* Project Image */}
-            <div className="flex-none w-48 h-32 bg-gray-500 mr-4 cursor-pointer hover:scale-110 transition-transform"
+            <div className="flex-none w-48 h-32 bg-gray-500 mr-4 cursor-pointer hover:scale-110 transition-transform rounded"
                  onClick={() => openModal('1', <RingostarModal/>)}>
-              <img src="\RingoStarMain.png" alt="Ringo Star" className=" h-full"/>
+              <img src="\RingoStarMain.png" alt="Ringo Star" className="rounded h-full"/>
             </div>
 
             {/* Project Description */}
@@ -58,9 +58,9 @@ const Projects = () => {
 
           <div className="flex items-center mb-8">
             {/* Project Image */}
-            <div className="flex-none w-48 h-32 bg-gray-500 mr-4 cursor-pointer hover:scale-110 transition-transform"
+            <div className="flex-none w-48 h-32 bg-gray-500 mr-4 cursor-pointer hover:scale-110 transition-transform rounded"
                  onClick={() => openModal('2', <SeniorsModal/>)}>
-              <img src="\SeniorsMain.png" alt="Seniors" className=" h-full"/>
+              <img src="\SeniorsMain.png" alt="Seniors" className="rounded h-full"/>
             </div>
 
             {/* Project Description */}
@@ -72,9 +72,9 @@ const Projects = () => {
           </div>
           <div className="flex items-center mb-8">
             {/* Project Image */}
-            <div className="flex-none w-48 h-32 bg-gray-500 mr-4 cursor-pointer hover:scale-110 transition-transform"
+            <div className="flex-none w-48 h-32 bg-gray-500 mr-4 cursor-pointer hover:scale-110 transition-transform rounded"
                  onClick={() => openModal('3', <KinderGrewModal/>)}>
-              <img src="\KinderGrew3.png" alt="KinderGrew" className=" h-full"/>
+              <img src="\KinderGrew3.png" alt="KinderGrew" className="rounded h-full"/>
             </div>
 
             {/* Project Description */}

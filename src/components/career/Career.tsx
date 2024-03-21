@@ -2,7 +2,7 @@
 
 const Career = () => {
 return (
-    <div className="bg-white text-black p-10">
+    <div  className={`bg-white text-black p-10 dark:bg-black dark:text-white`} id="career">
         <h2 className="text-4xl font-bold mb-4">Career</h2>
         <div className="flex flex-grow items-center justify-center">
                 <div className="p-5">

@@ -19,9 +19,9 @@ const Projects = () => {
   };
 
   return (
-  <div>
+  <div id='projects'>
     {/*<div ref={ref} className={`bg-black text-white p-10 ${inView ? 'animate-fadeInBrighten' : ''}`} id='projects'>*/}
-    <div  className={`bg-black text-white p-10`} id='projects'>
+    <div  className={`bg-black text-white p-10`} >
     <h2 className="text-4xl font-bold mb-4">Projects</h2>
       <div className="flex flex-col items-center justify-center">
         {/* Example of a single project entry */}

@@ -11,7 +11,7 @@ import { useInView } from "react-intersection-observer";
 const Skills = () => {
 
   return (
-    <div  className={`bg-white text-black p-10 dark:bg-black dark:text-white`}>
+    <div  className={`bg-white text-black p-10 dark:bg-black dark:text-white`} id="skills">
       <h2 className="text-4xl font-bold mb-4">Skills</h2>
       <div className="text-lg grid grid-cols-[2fr,1fr,1fr,1fr]">
         <div></div>

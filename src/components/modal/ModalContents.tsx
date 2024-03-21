@@ -223,6 +223,7 @@ export const VringoModal = () => {
                 <h3 className="font-semibold text-lg mb-2">Development Story</h3>
                 <p className="mb-1">KT 부가서비스인 Vringo 관리자 페이지 Vue2에서 React18로 마이그레이션 진행</p>
                 <p className="mb-1">프론트영역 혼자서 마이그레이션 진행 완료</p>
+                <p className="mb-1">UI/UX 개선 및 사용자 편의 기능 추가</p>
             </div>
         </div>
     )

@@ -31,11 +31,14 @@ const Navbar = () => {
                 <a href="#about">
                     <div className='p-4 text-lg font-thin'>About</div>
                 </a>
+                <a href="#skills">
+                    <div className='p-4 text-lg font-thin'>Skills</div>
+                </a>
                 <a href="#projects">
                     <div className='p-4 text-lg font-thin'>Projects</div>
                 </a>
-                <a href="#about">
-                    <div className='p-4 text-lg font-thin'>Contact</div>
+                <a href="#career">
+                    <div className='p-4 text-lg font-thin'>Career</div>
                 </a>
                 <button
                     className='rounded-full transition duration-300 ease-in-out transform hover:scale-110 dark:focus:ring-offset-white dark:focus:ring-black'

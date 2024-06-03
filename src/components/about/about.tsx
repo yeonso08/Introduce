@@ -6,10 +6,7 @@ import { CiPhone } from "react-icons/ci";
 import { FaGithub } from "react-icons/fa";
 import { SiBloglovin } from "react-icons/si";
 
-import { useInView } from "react-intersection-observer";
-
 const About = () => {
-
   return (
       <div className={`bg-black text-white p-10`} id="about">
         <h2 className="text-4xl font-bold mb-4">About</h2>

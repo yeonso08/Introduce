@@ -228,3 +228,49 @@ export const VringoModal = () => {
         </div>
     )
 };
+
+export const OtmCollectModal = () => {
+    return (
+      <div className="p-5 bg-white rounded-lg shadow-2xl dark:bg-black">
+          <h2 className="text-4xl font-bold mb-4 text-black dark:text-white">OTM Collect</h2>
+          <h2 className="text-2xl font-medium mb-3 text-gray-800 dark:text-white">네이버 플레이스를 이용하여 만든 전화번호 수집사이트</h2>
+          <div className="mb-3">
+              <div className="h-64 gap-5 rounded-md flex items-center justify-center">
+                  <img src="\otmCollectNewPhone.png" alt="OTMCollect" className=" h-full" />
+                  <img src="\otmCollectDownloadList.png" alt="OTMCollect" className=" h-full" />
+                  <img src="\otmCollectDownload.png" alt="OTMCollect" className=" h-full" />
+              </div>
+          </div>
+
+          {/* Project Details */}
+          <div className="mb-6 text-gray-700 dark:text-white">
+              <div className="space-y-2">
+                  <div className="flex justify-start items-baseline space-x-2">
+                      <div className="font-semibold">Workplace:</div>
+                      <div>아이작에스엔씨(주)</div>
+                  </div>
+                  <div className="flex justify-start items-baseline space-x-2">
+                      <div className="font-semibold">Development period:</div>
+                      <div>2024.04 ~ 2024.05 (2개월)</div>
+                  </div>
+                  <div className="flex justify-start items-baseline space-x-2">
+                      <div className="font-semibold">Development scope:</div>
+                      <div>Front end</div>
+                  </div>
+                  <div className="flex justify-start items-baseline space-x-2">
+                      <div className="font-semibold">Technology stack:</div>
+                      <div>React,TypeScript, Zustand, Tanstack Query, Tailwind, Shadcn/ui, msw</div>
+                  </div>
+              </div>
+          </div>
+
+          {/* Development Story */}
+          <div className="mb-4 text-gray-700 dark:text-white">
+              <h3 className="font-semibold text-lg mb-2">Development Story</h3>
+              <p className="mb-1">전화번호 수집 프로그램을 이용하여 사내에서 이용하는 사이트를 개발 했습니다.</p>
+              <p className="mb-1">기획 및 디자인도 참여 했습니다.</p>
+              <p className="mb-1">프론트영역 혼자서 담당하여 완료 했습니다</p>
+          </div>
+      </div>
+    )
+};

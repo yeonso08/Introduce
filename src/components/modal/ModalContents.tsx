@@ -261,6 +261,15 @@ export const OtmCollectModal = () => {
                       <div className="font-semibold">Technology stack:</div>
                       <div>React,TypeScript, Zustand, Tanstack Query, Tailwind, Shadcn/ui, msw</div>
                   </div>
+                  <div className="flex flex-col space-y-2">
+                      <div className="flex justify-start items-baseline space-x-2">
+                          <div className="font-semibold">URL:</div>
+                          <a href="https://front-omega-vert.vercel.app/main" target="_blank" rel="noopener noreferrer"
+                             className="text-blue-500 hover:text-blue-600">
+                              http://collect.ijaksnc.co.kr:8050/
+                          </a>
+                      </div>
+                  </div>
               </div>
           </div>
 

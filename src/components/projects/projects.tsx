@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 import Modal from "../modal/Modal";
 import {
   KinderGrewModal,
-  OtmCollectModal,
+  OtmCollectModal, OverTheMountainModal,
   RingostarModal,
   SeniorsModal,
   VringoModal,
@@ -27,9 +27,22 @@ const Projects = () => {
         <div>
           <div className="sm:flex items-center mb-8">
             <div
-              className="flex-none w-48 h-32 bg-gray-500 mr-4 cursor-pointer hover:scale-110 transition-transform rounded"
-              onClick={() => openModal('2', <OtmCollectModal />)}>
-              <img src="\otmCollectMain.png" alt="Vringo" className="rounded h-full" />
+                className="flex-none w-48 h-32 bg-gray-500 mr-4 cursor-pointer hover:scale-110 transition-transform rounded"
+                onClick={() => openModal('overTheMountain', <OverTheMountainModal/>)}>
+              <img src="\overTheMountain.png" alt="Vringo" className="rounded h-full"/>
+            </div>
+
+            <div className="flex-grow">
+              <h3 className="text-2xl font-bold">산너머산</h3>
+              <p>등산일정을 세우고 친구들에게 공유하는</p>
+              <p>등산 플랫폼</p>
+            </div>
+          </div>
+          <div className="sm:flex items-center mb-8">
+            <div
+                className="flex-none w-48 h-32 bg-gray-500 mr-4 cursor-pointer hover:scale-110 transition-transform rounded"
+                onClick={() => openModal('otmCollect', <OtmCollectModal/>)}>
+              <img src="\otmCollectMain.png" alt="Vringo" className="rounded h-full"/>
             </div>
 
             <div className="flex-grow">
@@ -40,9 +53,9 @@ const Projects = () => {
           </div>
           <div className="sm:flex items-center mb-8">
             <div
-              className="flex-none w-48 h-32 bg-gray-500 mr-4 cursor-pointer hover:scale-110 transition-transform rounded"
-              onClick={() => openModal('2', <VringoModal />)}>
-              <img src="\VringoChart.png" alt="Vringo" className="rounded h-full" />
+                className="flex-none w-48 h-32 bg-gray-500 mr-4 cursor-pointer hover:scale-110 transition-transform rounded"
+                onClick={() => openModal('Vringo', <VringoModal/>)}>
+              <img src="\VringoChart.png" alt="Vringo" className="rounded h-full"/>
             </div>
 
             <div className="flex-grow">
@@ -53,9 +66,9 @@ const Projects = () => {
           </div>
           <div className="sm:flex items-center mb-8">
             <div
-              className="flex-none w-48 h-32 bg-gray-500 mr-4 cursor-pointer hover:scale-110 transition-transform rounded"
-              onClick={() => openModal('1', <RingostarModal />)}>
-              <img src="\RingoStarMain.png" alt="Ringo Star" className="rounded h-full" />
+                className="flex-none w-48 h-32 bg-gray-500 mr-4 cursor-pointer hover:scale-110 transition-transform rounded"
+                onClick={() => openModal('RingoStar', <RingostarModal/>)}>
+              <img src="\RingoStarMain.png" alt="Ringo Star" className="rounded h-full"/>
             </div>
 
             <div className="flex-grow">
@@ -66,9 +79,9 @@ const Projects = () => {
 
           <div className="sm:flex items-center mb-8">
             <div
-              className="flex-none w-48 h-32 bg-gray-500 mr-4 cursor-pointer hover:scale-110 transition-transform rounded"
-              onClick={() => openModal('2', <SeniorsModal />)}>
-              <img src="\SeniorsMain.png" alt="Seniors" className="rounded h-full" />
+                className="flex-none w-48 h-32 bg-gray-500 mr-4 cursor-pointer hover:scale-110 transition-transform rounded"
+                onClick={() => openModal('Seniors', <SeniorsModal/>)}>
+              <img src="\SeniorsMain.png" alt="Seniors" className="rounded h-full"/>
             </div>
 
             <div className="flex-grow">
@@ -78,9 +91,9 @@ const Projects = () => {
           </div>
           <div className="sm:flex items-center mb-8">
             <div
-              className="flex-none w-48 h-32 bg-gray-500 mr-4 cursor-pointer hover:scale-110 transition-transform rounded"
-              onClick={() => openModal('3', <KinderGrewModal />)}>
-              <img src="\KinderGrew3.png" alt="KinderGrew" className="rounded h-full" />
+                className="flex-none w-48 h-32 bg-gray-500 mr-4 cursor-pointer hover:scale-110 transition-transform rounded"
+                onClick={() => openModal('KinderGrew', <KinderGrewModal/>)}>
+              <img src="\KinderGrew3.png" alt="KinderGrew" className="rounded h-full"/>
             </div>
 
             <div className="flex-grow">
@@ -93,10 +106,10 @@ const Projects = () => {
       </div>
     </div>
     <Modal
-      isOpen={modalOpen}
-      onClose={() => setModalOpen(false)}
-      projectId={selectedProject.id}
-      projectDescription={selectedProject.description}
+        isOpen={modalOpen}
+        onClose={() => setModalOpen(false)}
+        projectId={selectedProject.id}
+        projectDescription={selectedProject.description}
     />
   </div>
   );

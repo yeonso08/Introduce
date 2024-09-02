@@ -283,3 +283,74 @@ export const OtmCollectModal = () => {
       </div>
     )
 };
+export const OverTheMountainModal = () => {
+    return (
+        <div className="p-5 bg-white rounded-lg shadow-2xl dark:bg-black">
+            <h2 className="text-4xl font-bold mb-4 text-black dark:text-white">산너머산</h2>
+            <h2 className="text-2xl font-medium mb-3 text-gray-800 dark:text-white">등산일정을 세우고 친구들에게 공유하는 등산 플랫폼</h2>
+            <div className="mb-3">
+                <div className="h-64 gap-20 rounded-md flex items-center justify-center">
+                    <img src="\mntLogin.png" alt="mntMain" className=" h-full"/>
+                    <img src="\mntMain.png" alt="mntMain" className=" h-full"/>
+                    <img src="\mntSchedule.png" alt="mntMain" className=" h-full"/>
+                    <img src="\mntList.png" alt="mntList" className=" h-full"/>
+                    <img src="\mntDetail.png" alt="mntDetail" className=" h-full"/>
+                    <img src="\mntMake.png" alt="mntMake" className=" h-full"/>
+                    <img src="\mntInvite.png" alt="mntInvite" className=" h-full"/>
+                    <img src="\mntAccept.png" alt="mntMain" className=" h-full"/>
+                </div>
+            </div>
+
+            {/* Project Details */}
+            <div className="mb-6 text-gray-700 dark:text-white">
+                <div className="space-y-2">
+                    <div className="flex justify-start items-baseline space-x-2">
+                        <div className="font-semibold">Workplace:</div>
+                        <div>사이드프로젝트</div>
+                    </div>
+                    <div className="flex justify-start items-baseline space-x-2">
+                        <div className="font-semibold">Development period:</div>
+                        <div>2024.06 ~ 2024.09 (3개월)</div>
+                    </div>
+                    <div className="flex justify-start items-baseline space-x-2">
+                        <div className="font-semibold">Development member:</div>
+                        <div>FE: 2, BE: 2, DE: 2, PM: 1</div>
+                    </div>
+                    <div className="flex justify-start items-baseline space-x-2">
+                        <div className="font-semibold">Development scope:</div>
+                        <div>Front end</div>
+                    </div>
+                    <div className="flex justify-start items-baseline space-x-2">
+                        <div className="font-semibold">Technology stack:</div>
+                        <div>React,TypeScript, Zustand, Tanstack Query, Tailwind, Shadcn/ui</div>
+                    </div>
+                    <div className="flex flex-col space-y-2">
+                        <div className="flex justify-start items-baseline space-x-2">
+                            <div className="font-semibold">GIT:</div>
+                            <a href="https://github.com/mountains-after-mountains/FE.git" target="_blank"
+                               rel="noopener noreferrer"
+                               className="text-blue-500 hover:text-blue-600">
+                                https://github.com/mountains-after-mountains/FE.git
+                            </a>
+                        </div>
+                        <div className="flex justify-start items-baseline space-x-2">
+                            <div className="font-semibold">URL:</div>
+                            <a href="https://over-the-mountain.site/" target="_blank" rel="noopener noreferrer"
+                               className="text-blue-500 hover:text-blue-600">
+                                https://over-the-mountain.site/
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            {/* Development Story */}
+            <div className="mb-4 text-gray-700 dark:text-white">
+                <h3 className="font-semibold text-lg mb-2">Development Story</h3>
+                <p className="mb-1">이 프로젝트는 등산일정을 만들고 일정을 공유하는 등산 플랫폼 입니다.</p>
+                <p className="mb-1">모바일 웹앱 형식으로 제작했습니다.</p>
+                <p>프론트 작업 외에도 프로젝트 세팅 및 CI/CD를 담당 했습니다.</p>
+            </div>
+        </div>
+    )
+};
